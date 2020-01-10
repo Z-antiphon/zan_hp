@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 
-.main{
+/* .main{
   width: 90%;
   height: 700px;
   
-}
+} */
 
 .main-visual{
-  height: 700px;
+  /* height: 700px; */
   /* background setting */
   background-image: url(../img/topImg.png);
   background-size: cover;
@@ -21,7 +21,7 @@
   /* border setting */
   border: solid 10px #A61723;
 }
-
+/* 
 .main-text{
   position: absolute;
   left: 40%;
@@ -32,5 +32,31 @@
   font-size: 80px;
   text-align: right;
   padding-bottom: 40px;
+} */
+
+
+/* member-image */
+
+.member-image{
+  height: 40rem;
 }
 
+.ruby {
+  margin: 0 auto;
+	position: relative;
+  width: 40rem;
+	border-left: 4rem solid transparent;
+	border-right: 4rem solid transparent;
+  border-bottom: 100px solid gray;
+}
+.ruby:before {
+	position: absolute;
+	bottom: -600px;
+	left: -4rem;
+	width: 0;
+	height: 300;
+	content: "";
+	border-left: 20rem solid transparent;
+	border-right: 20rem solid transparent;
+	border-top: 31.3rem solid gray;
+}
